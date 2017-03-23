@@ -4,13 +4,10 @@
   children:
     - name: Why Open GEE?
       path: index.html#whyopengee
+    - name: Use Cases
+      path: index.html#usecases
     - name: Features
       path: index.html#opengeefeatures
-    - name: Use Cases
-      path: index.html#usecases  
-- name: Install
-  path: services.html
-  section_id: services
 - name: Develop
-  path: about.html
-  section_id: about
+  path: development/getting-started.html
+  section_id: develop 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "This is a title for your post"
 date:   2014-05-01 20:37:53 +0800
 author: Andy Budd
