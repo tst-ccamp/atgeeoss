@@ -21,7 +21,7 @@
             <li class='name'>
               <h1>
                 <img src='{{site.github.url}}/images/earth_logo_50.png'>
-                <a href='{{site.github.url}}'>{{ site.name }}</a>
+                <a href='{{site.github.url}}/index.html'>{{ site.name }}</a>
               </h1>
             </li>
             <li class='toggle-topbar menu-icon'>
@@ -55,7 +55,7 @@
                 {% endif %}
               {% endfor %}
               <li class="">
-                    <a class="icon-github" href="https://github.com/tst-aterrazas/atgeeoss">Github</a>
+                    <a class="icon-github" href="{{page.githuburl}}">Github</a>
                   </li>
             </ul>
           </section>
@@ -79,20 +79,14 @@
           <div class='spacing'></div>
           <div class='spacing'></div>
           <div class='socials centered-text'>
-            <a href='#'>
-              <i class='icon-twitter grey'></i>
-            </a>
-            <a href='#'>
-              <i class='icon-vimeo grey'></i>
-            </a>
-            <a href='#'>
+            <a href='{{page.githuburl}}'>
               <i class='icon-github grey'></i>
             </a>
             <a href='mailto:gee-oss@googlegroups.com'>
               <i class='icon-mail grey'></i>
             </a>
           </div>
-          <p class='copyright'>Copyright 2013 Squarebox</p>
+          <p class='copyright'>Copyright 2017 </p>
         </div>
       </div>
 
